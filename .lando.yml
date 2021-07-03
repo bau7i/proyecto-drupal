@@ -1,0 +1,11 @@
+name: cursodrupal-bautista
+recipe: pantheon
+config:
+  framework: drupal8
+  site: cursodrupal-bautista
+  id: 2d415668-ffd8-4269-b17d-61d7f67eed5a
+  xdebug: true
+# These defaults are here for reference.
+landoFile: .lando.yml
+postLandoFiles:
+  - .lando.local.yml
